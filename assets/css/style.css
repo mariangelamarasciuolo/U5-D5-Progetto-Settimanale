@@ -1,0 +1,177 @@
+nav {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px #191919;
+}
+
+nav .navTransi {
+    margin-block: 1.5em;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 15px;
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstbutton {
+    background-color: #191919;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    margin-left: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navFixed {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.navFixed .navTransi {
+    margin-block: 1.5em;
+}
+
+.navFixed .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.yellow {
+    background-color: #ffc017;
+    border-bottom: solid 1px #191919;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.curious {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2em;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 4.5em;
+    font-family: 'Spectral', serif;
+    letter-spacing: -0.07em;
+}
+
+.yellow .curious p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secondbutton {
+    background-color: #191919;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    padding-inline: 2.8em;
+    padding-block: 0.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstsection {
+    margin-top: 3.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstsection>h3 {
+    display: flex;
+    align-items: center;
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.trend {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+  row-gap: 1.5rem;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  border-bottom: 0.1px solid rgb(220, 216, 216);
+}
+
+.paratrend {
+    display: flex;
+    width: 20em;
+}
+
+.paratext {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.paranumb {
+    box-sizing: border-box;
+    padding-top: 1rem;
+    height: 3rem;
+    padding-right: 2rem;
+    font-weight: 10em;
+    color: rgb(230, 230, 230);
+}
+
+.paratext h3 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.paratext p {
+    color: gray;
+}
+
+.paratext span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#img1 {
+    height: 1.2em;
+    border-radius: 100%;
+}
+
+#img2 {
+    height: 1.2em;
+}
+
+.img {
+    height: 1.2em;
+    border-radius: 5px;
+}
+
+
